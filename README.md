@@ -39,7 +39,6 @@ voice and style.
 
 ### Installation
 - Clone the repository
-
 `
 git clone <repository-url>
 cd project-genai-post-generator
@@ -50,7 +49,6 @@ Set up environment variables
 `echo "GROQ_API_KEY=your_groq_api_key_here" > .env`
 
 - Install dependencies
-
 `pip install -r requirements.txt`
 
 ### Usage
@@ -64,9 +62,8 @@ Set up environment variables
 
 `
 streamlit run main.py
-Generate new posts
 `
-
+#### Generate new posts
 - Select your desired topic from the extracted list
 
 - Choose post length (Short, Medium, Long)
